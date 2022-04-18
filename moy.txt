@@ -1,0 +1,12 @@
+1.разбить на блоки 
+2.Выделить общие элементы 
+-header
+-cargo-delivery
+-vybor-nas
+-variant-dostavki
+-uslugi
+-info-kompani
+-vopros
+-sotrudnichestvo
+-footer
+3.выделить общие цвета 

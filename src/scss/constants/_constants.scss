@@ -1,0 +1,16 @@
+//variables переменные 
+$primary1: #E58D35;
+$primary2: #ffffff;
+$primary3: #89C249;
+
+$title-text-color: #ffffff;
+$subtitle-text-color: #FFFFFF;
+$footer-text-color: #85899C;
+
+a{
+    text-decoration: none;
+    color:$subtitle-text-color ;
+    &:hover{
+        color: $primary1;
+    }
+}
