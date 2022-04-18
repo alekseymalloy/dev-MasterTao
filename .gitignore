@@ -1,0 +1,5 @@
+.vscode
+.node_modules/*
+.dist/*
+.lessons-gulp.zip/*
+node_modules
