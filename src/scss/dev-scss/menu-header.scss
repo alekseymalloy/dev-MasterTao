@@ -1,0 +1,17 @@
+.container{
+    
+    background-color: $fon;
+}
+.menu-header{
+    padding: 0 90px;
+}
+
+.nav-link{
+    margin: 0 20px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+    color: $subtitle-text-color;
+}
