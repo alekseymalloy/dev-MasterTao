@@ -6835,8 +6835,8 @@ a:hover {
 }
 
 .btn-menu {
-  max-width: 171px;
-  max-height: 50px;
+  width: 171px;
+  height: 50px;
   color: #fff;
   background-color: #E58D35;
   border-color: #E58D35;
@@ -6852,9 +6852,9 @@ a:hover {
 .btn-check:focus + .btn-menu,
 .btn-menu:focus {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
-  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  background-color: #e7873d;
+  border-color: #e7873dc0;
+  box-shadow: 0 0 0 0.25rem #e7873dc0;
 }
 
 .btn-check:checked + .btn-menu,
@@ -6863,8 +6863,8 @@ a:hover {
 .btn-menu.active,
 .show > .btn-menu.dropdown-toggle {
   color: #fff;
-  background-color: #565e64;
-  border-color: #51585e;
+  background-color: #e7873d;
+  border-color: #e73d3dc0;
 }
 
 .btn-check:checked + .btn-menu:focus,
@@ -6872,23 +6872,23 @@ a:hover {
 .btn-menu:active:focus,
 .btn-menu.active:focus,
 .show > .btn-menu.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.25rem #e73d3dc0;
 }
 
 .btn-menu:disabled,
 .btn-menu.disabled {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #e7873d;
+  border-color: #e7873dc0;
 }
 
 .btn-carusel {
-  max-width: 191px;
-  max-height: 50px;
+  width: 293px;
+  height: 68px;
   color: #fff;
   background-color: #E58D35;
   border-color: #E58D35;
-  border-radius: 20px;
+  border-radius: 35px;
 }
 
 .btn-carusel:hover {
@@ -6900,9 +6900,9 @@ a:hover {
 .btn-check:focus + .btn-carusel,
 .btn-carusel:focus {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
-  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  background-color: #e7873d;
+  border-color: #e7873dc0;
+  box-shadow: 0 0 0 0.25rem #e73d3dc0;
 }
 
 .btn-check:checked + .btn-carusel,
@@ -6911,8 +6911,8 @@ a:hover {
 .btn-carusel.active,
 .show > .btn-carusel.dropdown-toggle {
   color: #fff;
-  background-color: #565e64;
-  border-color: #51585e;
+  background-color: #e7873d;
+  border-color: #e7873dc0;
 }
 
 .btn-check:checked + .btn-carusel:focus,
@@ -6920,14 +6920,14 @@ a:hover {
 .btn-carusel:active:focus,
 .btn-carusel.active:focus,
 .show > .btn-carusel.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.25rem #e73d3dc0;
 }
 
 .btn-carusel:disabled,
 .btn-carusel.disabled {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #e7873d;
+  border-color: #e7873dc0;
 }
 
 .container {
@@ -6946,6 +6946,40 @@ a:hover {
   font-size: 16px;
   line-height: 146%;
   color: #FFFFFF;
+}
+
+.text-carusel {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.text-bnt-t {
+  font-family: Proxima Nova;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 71px;
+  text-transform: uppercase;
+}
+
+.text-bnt-m {
+  font-family: Proxima Nova;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.right1 {
+  position: absolute;
+  top: 41px;
+  margin: 0 235px;
+  width: 27px;
+  height: 27px;
+  display: block;
+  background-image: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.421875 13.5C0.421875 6.27539 6.27539 0.421875 13.5 0.421875C20.7246 0.421875 26.5781 6.27539 26.5781 13.5C26.5781 20.7246 20.7246 26.5781 13.5 26.5781C6.27539 26.5781 0.421875 20.7246 0.421875 13.5ZM13.5 24.8906C19.7596 24.8906 24.8906 19.8229 24.8906 13.5C24.8906 7.24043 19.8229 2.10938 13.5 2.10938C7.24043 2.10938 2.10938 7.17715 2.10938 13.5C2.10938 19.7596 7.17715 24.8906 13.5 24.8906ZM14.1592 20.0127L20.2289 13.9482C20.4768 13.7004 20.4768 13.2996 20.2289 13.0518L14.1592 6.9873C13.9113 6.73945 13.5105 6.73945 13.2627 6.9873L12.8988 7.35117C12.651 7.59902 12.651 8.01035 12.9094 8.25293L17.4182 12.6035H7.38281C7.03477 12.6035 6.75 12.8883 6.75 13.2363V13.7637C6.75 14.1117 7.03477 14.3965 7.38281 14.3965H17.4182L12.9041 18.7471C12.651 18.9949 12.6457 19.401 12.8936 19.6488L13.2574 20.0127C13.5105 20.2605 13.9113 20.2605 14.1592 20.0127Z' fill='%23B26519'/%3E%3C/svg%3E%0A");
 }
 
 @media (min-width: 576px) {
