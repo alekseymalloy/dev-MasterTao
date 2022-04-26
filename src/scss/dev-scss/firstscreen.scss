@@ -6,26 +6,28 @@
     line-height: 23px;
     color: $subtitle-text-color;
 }
-.text-bnt-t{
-    font-family: Proxima Nova;
-font-weight: 700;
-font-size: 56px;
-line-height: 71px;
 
-text-transform: uppercase;
+.text-bnt-t {
+    font-family: Proxima Nova;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+
+    text-transform: uppercase;
 }
 
-.text-bnt-m{
+.text-bnt-m {
     font-family: Proxima Nova;
 
-font-weight: 400;
-font-size: 20px;
-line-height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
 }
+
 .right1 {
     position: absolute;
     top: 41px;
-    
+
     margin: 0 235px;
     width: 27px;
     height: 27px;
