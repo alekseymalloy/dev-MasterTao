@@ -9,11 +9,17 @@ $footer-text-color: #85899C;
 
 a {
     text-decoration: none;
+    list-style-type: none;
     color: $subtitle-text-color;
 
     &:hover {
         color: $primary1;
     }
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
 }
 
 $fon: #6A6A6A;
@@ -81,7 +87,7 @@ $fon: #6A6A6A;
 }
 
 .btn-carusel {
-    width: 293px;
+    width: 253px;
     height: 68px;
     color: #fff;
     background-color: $primary1;
@@ -90,6 +96,7 @@ $fon: #6A6A6A;
 }
 
 .btn-carusel:hover {
+    text-align: left;
     color: #fff;
     background-color: $primary3;
     border-color: $primary3;
@@ -245,4 +252,54 @@ a.btn.btn-outline-warning {
 .btn-outline-warning.disabled {
     color: $primary1;
     background-color: transparent;
+}
+
+// кнопка вопрос
+.btn-vopros {
+    width: 181px;
+    height: 38px;
+    color: #fff;
+    background-color: $primary1;
+    border-color: $primary1;
+    border-radius: 35px;
+}
+
+.btn-vopros:hover {
+    text-align: left;
+    color: #fff;
+    background-color: $primary3;
+    border-color: $primary3;
+}
+
+.btn-check:focus+.btn-vopros,
+.btn-vopros:focus {
+    color: #fff;
+    background-color: #e7873d;
+    border-color: #e7873dc0;
+    box-shadow: 0 0 0 0.25rem #e73d3dc0;
+}
+
+.btn-check:checked+.btn-vopros,
+.btn-check:active+.btn-vopros,
+.btn-vopros:active,
+.btn-vopros.active,
+.show>.btn-vopros.dropdown-toggle {
+    color: #fff;
+    background-color: #e7873d;
+    border-color: #e7873dc0;
+}
+
+.btn-check:checked+.btn-vopros:focus,
+.btn-check:active+.btn-vopros:focus,
+.btn-vopros:active:focus,
+.btn-vopros.active:focus,
+.show>.btn-vopros.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem #e73d3dc0;
+}
+
+.btn-vopros:disabled,
+.btn-vopros.disabled {
+    color: #fff;
+    background-color: #e7873d;
+    border-color: #e7873dc0;
 }

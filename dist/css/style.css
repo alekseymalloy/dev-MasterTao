@@ -6828,11 +6828,17 @@ fieldset:disabled .btn {
 
 a {
   text-decoration: none;
+  list-style-type: none;
   color: #FFFFFF;
 }
 
 a:hover {
   color: #E58D35;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .container-fluid {
@@ -6893,7 +6899,7 @@ a:hover {
 }
 
 .btn-carusel {
-  width: 293px;
+  width: 253px;
   height: 68px;
   color: #fff;
   background-color: #E58D35;
@@ -6902,6 +6908,7 @@ a:hover {
 }
 
 .btn-carusel:hover {
+  text-align: left;
   color: #fff;
   background-color: #89C249;
   border-color: #89C249;
@@ -7052,6 +7059,55 @@ a.btn.btn-outline-warning {
   background-color: transparent;
 }
 
+.btn-vopros {
+  width: 181px;
+  height: 38px;
+  color: #fff;
+  background-color: #E58D35;
+  border-color: #E58D35;
+  border-radius: 35px;
+}
+
+.btn-vopros:hover {
+  text-align: left;
+  color: #fff;
+  background-color: #89C249;
+  border-color: #89C249;
+}
+
+.btn-check:focus + .btn-vopros,
+.btn-vopros:focus {
+  color: #fff;
+  background-color: #e7873d;
+  border-color: #e7873dc0;
+  box-shadow: 0 0 0 0.25rem #e73d3dc0;
+}
+
+.btn-check:checked + .btn-vopros,
+.btn-check:active + .btn-vopros,
+.btn-vopros:active,
+.btn-vopros.active,
+.show > .btn-vopros.dropdown-toggle {
+  color: #fff;
+  background-color: #e7873d;
+  border-color: #e7873dc0;
+}
+
+.btn-check:checked + .btn-vopros:focus,
+.btn-check:active + .btn-vopros:focus,
+.btn-vopros:active:focus,
+.btn-vopros.active:focus,
+.show > .btn-vopros.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem #e73d3dc0;
+}
+
+.btn-vopros:disabled,
+.btn-vopros.disabled {
+  color: #fff;
+  background-color: #e7873d;
+  border-color: #e7873dc0;
+}
+
 .nav-link {
   margin: 0 20px;
   font-family: Proxima Nova;
@@ -7089,7 +7145,7 @@ a.btn.btn-outline-warning {
 .right1 {
   position: absolute;
   top: 41px;
-  margin: 0 235px;
+  margin: 0 171px;
   width: 27px;
   height: 27px;
   display: block;
@@ -7361,6 +7417,10 @@ img.displayed {
   transform: rotate(-90deg);
 }
 
+.container-vopros {
+  padding-bottom: 100px;
+}
+
 .accordion-button {
   background-color: #6A6A6A;
 }
@@ -7375,6 +7435,128 @@ img.displayed {
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
+}
+
+.text-carusel {
+  text-align: left;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.right2 {
+  position: relative;
+  top: -26px;
+  left: -36px;
+  margin: 0 171px;
+  width: 27px;
+  height: 27px;
+  display: block;
+  background-image: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.421875 13.5C0.421875 6.27539 6.27539 0.421875 13.5 0.421875C20.7246 0.421875 26.5781 6.27539 26.5781 13.5C26.5781 20.7246 20.7246 26.5781 13.5 26.5781C6.27539 26.5781 0.421875 20.7246 0.421875 13.5ZM13.5 24.8906C19.7596 24.8906 24.8906 19.8229 24.8906 13.5C24.8906 7.24043 19.8229 2.10938 13.5 2.10938C7.24043 2.10938 2.10938 7.17715 2.10938 13.5C2.10938 19.7596 7.17715 24.8906 13.5 24.8906ZM14.1592 20.0127L20.2289 13.9482C20.4768 13.7004 20.4768 13.2996 20.2289 13.0518L14.1592 6.9873C13.9113 6.73945 13.5105 6.73945 13.2627 6.9873L12.8988 7.35117C12.651 7.59902 12.651 8.01035 12.9094 8.25293L17.4182 12.6035H7.38281C7.03477 12.6035 6.75 12.8883 6.75 13.2363V13.7637C6.75 14.1117 7.03477 14.3965 7.38281 14.3965H17.4182L12.9041 18.7471C12.651 18.9949 12.6457 19.401 12.8936 19.6488L13.2574 20.0127C13.5105 20.2605 13.9113 20.2605 14.1592 20.0127Z' fill='%23B26519'/%3E%3C/svg%3E%0A");
+}
+
+.vopros-label {
+  display: inline-block;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #CBCBCB;
+}
+
+.card-body {
+  padding: 10px 0;
+}
+
+.text-vopros {
+  text-align: left;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+input#fname,
+input#lname,
+input#email,
+input#vvopros {
+  border-radius: 25px;
+  max-width: 185px;
+  min-height: 40px;
+}
+
+.sotrudnichestvo-text {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.sotrudnichestvo-text-title {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.sotrudnichestvo-info {
+  grid-template-columns: 600px 600px;
+  display: grid;
+  justify-content: center;
+}
+
+.sotrudnichestvo-info-text {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 20px;
+}
+
+.sotrudnichestvo-pogruzka {
+  margin: 20px;
+  background-image: url(/img/pogruzka.png);
+  max-width: 555px;
+  min-height: 406px;
+  background-repeat: no-repeat;
+}
+
+.sotrudnichestvo-dostavka {
+  margin: 20px;
+  background-image: url(/img/dostavka2.png);
+  max-width: 555px;
+  min-height: 406px;
+  background-repeat: no-repeat;
+}
+
+.footer-first,
+.footer-second,
+.footer-three,
+.footer-four {
+  margin: 0 36px;
+}
+
+.footer-first,
+.footer-second,
+.footer-three,
+.footer-four {
+  margin: 0 36px;
 }
 
 @media (min-width: 576px) {

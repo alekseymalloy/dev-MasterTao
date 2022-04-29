@@ -1,0 +1,65 @@
+.sotrudnichestvo-text {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $primary2;
+}
+
+.sotrudnichestvo-text-title {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 45px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $primary2;
+}
+
+
+
+.sotrudnichestvo-info {
+    grid-template-columns: 600px 600px ;
+    display: grid;
+    justify-content: center;
+}
+
+.sotrudnichestvo-info-text {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: $primary2;
+    margin: 20px;
+
+}
+
+
+
+
+.sotrudnichestvo-pogruzka {
+    margin: 20px;
+
+    background-image: url(/img/pogruzka.png);
+    max-width: 555px;
+    min-height: 406px;
+    background-repeat: no-repeat;
+}
+
+.sotrudnichestvo-dostavka {
+    margin: 20px;
+
+    background-image: url(/img/dostavka2.png);
+    max-width: 555px;
+    min-height: 406px;
+    background-repeat: no-repeat;
+}
