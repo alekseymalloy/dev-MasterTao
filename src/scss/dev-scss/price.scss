@@ -6,11 +6,17 @@ input {
     color: #CBCBCB;
 
     &::placeholder {
-        color: red;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.26;
+        color: #CBCBCB;
     }
 }
 
 label {
+    padding-left: 9px;
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 600;
@@ -46,4 +52,13 @@ form.input-row {
     flex-direction: column;
     width: 100%;
     margin: 0 15px 20px;
+}
+
+
+input#check1,
+input#check2{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 6px;
 }

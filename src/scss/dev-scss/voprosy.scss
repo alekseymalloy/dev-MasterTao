@@ -10,7 +10,9 @@
 }
 
 .container-vopros-dop {
-    padding: 30px 55px;
+    height: 573px;
+    width: 390px ;
+    padding: 10px 40px;
     background-color: #363a4d87;
     border-radius: 20px;
 }
@@ -44,8 +46,7 @@
 .right2 {
     position: relative;
     top: -26px;
-    left: -36px;
-    ;
+
     margin: 0 171px;
     width: 27px;
     height: 27px;
@@ -77,13 +78,28 @@
     font-size: 16px;
     line-height: 23px;
     color: $primary2;
+    padding: 13px 0px 0px 23px;
+
 }
 
-// input#fname,
-// input#lname,
-// input#email,
-// input#vvopros {
-//     border-radius: 25px;
-//     max-width: 185px;
-//     min-height: 40px;
-// }
+.text-question {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 126%;
+    color: $primary2;
+    margin: 10px 0 10px 25px;
+
+}
+
+
+.text-question-time {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 126%;
+    color: $primary2;
+    margin: 10px 0 10px 25px;
+}
