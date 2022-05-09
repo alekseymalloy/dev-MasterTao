@@ -1,0 +1,49 @@
+input {
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 1.26;
+    color: #CBCBCB;
+
+    &::placeholder {
+        color: red;
+    }
+}
+
+label {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 126%;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.container-price {
+    display: flex;
+
+    .input-box {
+        width: calc(50% - 30px);
+    }
+}
+
+form.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 626px;
+    width: 100%;
+    min-width: 626px;
+    padding: 50px 35px 40px;
+    background: #363A4D;
+    border-radius: 20px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 15px 20px;
+}

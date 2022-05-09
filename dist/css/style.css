@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: ProximaNova;
+  font-family: "ProximaNova";
   font-display: swap;
   src: url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff") format("woff");
   font-weight: 300;
@@ -7152,6 +7152,56 @@ a.btn.btn-outline-warning {
   background-image: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.421875 13.5C0.421875 6.27539 6.27539 0.421875 13.5 0.421875C20.7246 0.421875 26.5781 6.27539 26.5781 13.5C26.5781 20.7246 20.7246 26.5781 13.5 26.5781C6.27539 26.5781 0.421875 20.7246 0.421875 13.5ZM13.5 24.8906C19.7596 24.8906 24.8906 19.8229 24.8906 13.5C24.8906 7.24043 19.8229 2.10938 13.5 2.10938C7.24043 2.10938 2.10938 7.17715 2.10938 13.5C2.10938 19.7596 7.17715 24.8906 13.5 24.8906ZM14.1592 20.0127L20.2289 13.9482C20.4768 13.7004 20.4768 13.2996 20.2289 13.0518L14.1592 6.9873C13.9113 6.73945 13.5105 6.73945 13.2627 6.9873L12.8988 7.35117C12.651 7.59902 12.651 8.01035 12.9094 8.25293L17.4182 12.6035H7.38281C7.03477 12.6035 6.75 12.8883 6.75 13.2363V13.7637C6.75 14.1117 7.03477 14.3965 7.38281 14.3965H17.4182L12.9041 18.7471C12.651 18.9949 12.6457 19.401 12.8936 19.6488L13.2574 20.0127C13.5105 20.2605 13.9113 20.2605 14.1592 20.0127Z' fill='%23B26519'/%3E%3C/svg%3E%0A");
 }
 
+input {
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 1.26;
+  color: #CBCBCB;
+}
+
+input::placeholder {
+  color: red;
+}
+
+label {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 126%;
+  color: #FFFFFF;
+  margin-bottom: 6px;
+}
+
+.container-price {
+  display: flex;
+}
+
+.container-price .input-box {
+  width: calc(50% - 30px);
+}
+
+form.input-row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 626px;
+  width: 100%;
+  min-width: 626px;
+  padding: 50px 35px 40px;
+  background: #363A4D;
+  border-radius: 20px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 15px 20px;
+}
+
 .vibor-text {
   font-family: Proxima Nova;
   font-style: normal;
@@ -7421,6 +7471,12 @@ img.displayed {
   padding-bottom: 100px;
 }
 
+.container-vopros-dop {
+  padding: 30px 55px;
+  background-color: #363a4d87;
+  border-radius: 20px;
+}
+
 .accordion-button {
   background-color: #6A6A6A;
 }
@@ -7480,15 +7536,6 @@ img.displayed {
   font-size: 16px;
   line-height: 23px;
   color: #ffffff;
-}
-
-input#fname,
-input#lname,
-input#email,
-input#vvopros {
-  border-radius: 25px;
-  max-width: 185px;
-  min-height: 40px;
 }
 
 .sotrudnichestvo-text {
