@@ -7202,7 +7202,7 @@ form.input-row {
   margin: 0 15px 20px;
 }
 
-.vibor-text {
+.choice-text {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 700;
@@ -7226,7 +7226,7 @@ form.input-row {
   padding: 20px;
 }
 
-.vibor-info {
+.choice-info {
   grid-template-columns: 263px 263px 263px 263px;
   display: grid;
   justify-content: center;
