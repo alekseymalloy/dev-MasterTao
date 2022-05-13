@@ -1,4 +1,4 @@
-.sotrudnichestvo-text {
+.cooperation-text {
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 700;
@@ -11,7 +11,7 @@
     color: $primary2;
 }
 
-.sotrudnichestvo-text-title {
+.cooperation-text-title {
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 700;
@@ -26,13 +26,13 @@
 
 
 
-.sotrudnichestvo-info {
+.cooperation-info {
     grid-template-columns: 600px 600px ;
     display: grid;
     justify-content: center;
 }
 
-.sotrudnichestvo-info-text {
+.cooperation-info-text {
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: 300;
@@ -46,7 +46,7 @@
 
 
 
-.sotrudnichestvo-pogruzka {
+.cooperation-pogruzka {
     margin: 20px;
 
     background-image: url(/img/pogruzka.png);
@@ -55,10 +55,10 @@
     background-repeat: no-repeat;
 }
 
-.sotrudnichestvo-dostavka {
+.cooperation-delivery {
     margin: 20px;
 
-    background-image: url(/img/dostavka2.png);
+    background-image: url(/img/delivery2.png);
     max-width: 555px;
     min-height: 406px;
     background-repeat: no-repeat;

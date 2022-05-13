@@ -7059,7 +7059,7 @@ a.btn.btn-outline-warning {
   background-color: transparent;
 }
 
-.btn-vopros {
+.btn-question {
   width: 253px;
   height: 68px;
   color: #fff;
@@ -7068,41 +7068,41 @@ a.btn.btn-outline-warning {
   border-radius: 35px;
 }
 
-.btn-vopros:hover {
+.btn-question:hover {
   text-align: left;
   color: #fff;
   background-color: #89C249;
   border-color: #89C249;
 }
 
-.btn-check:focus + .btn-vopros,
-.btn-vopros:focus {
+.btn-check:focus + .btn-question,
+.btn-question:focus {
   color: #fff;
   background-color: #e7873d;
   border-color: #e7873dc0;
   box-shadow: 0 0 0 0.25rem #e73d3dc0;
 }
 
-.btn-check:checked + .btn-vopros,
-.btn-check:active + .btn-vopros,
-.btn-vopros:active,
-.btn-vopros.active,
-.show > .btn-vopros.dropdown-toggle {
+.btn-check:checked + .btn-question,
+.btn-check:active + .btn-question,
+.btn-question:active,
+.btn-question.active,
+.show > .btn-question.dropdown-toggle {
   color: #fff;
   background-color: #e7873d;
   border-color: #e7873dc0;
 }
 
-.btn-check:checked + .btn-vopros:focus,
-.btn-check:active + .btn-vopros:focus,
-.btn-vopros:active:focus,
-.btn-vopros.active:focus,
-.show > .btn-vopros.dropdown-toggle:focus {
+.btn-check:checked + .btn-question:focus,
+.btn-check:active + .btn-question:focus,
+.btn-question:active:focus,
+.btn-question.active:focus,
+.show > .btn-question.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem #e73d3dc0;
 }
 
-.btn-vopros:disabled,
-.btn-vopros.disabled {
+.btn-question:disabled,
+.btn-question.disabled {
   color: #fff;
   background-color: #e7873d;
   border-color: #e7873dc0;
@@ -7263,11 +7263,11 @@ img.displayed {
   color: #ffffff;
 }
 
-.dostavka-container {
+.delivery-container {
   position: relative;
 }
 
-.dostavka-container .container-arrows {
+.delivery-container .container-arrows {
   position: absolute;
   top: 42%;
   left: 50%;
@@ -7278,11 +7278,11 @@ img.displayed {
   transform: translate(-50%, -50%);
 }
 
-.dostavka-container .slick-prev {
+.delivery-container .slick-prev {
   left: 24px;
 }
 
-.dostavka-container .slick-next {
+.delivery-container .slick-next {
   right: 24px;
 }
 
@@ -7292,7 +7292,7 @@ img.displayed {
   margin-bottom: 100px;
 }
 
-.card-title-dostavka {
+.card-title-delivery {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 700;
@@ -7343,11 +7343,11 @@ img.displayed {
   width: 100%;
 }
 
-.container-uslugi {
+.container-services {
   position: relative;
 }
 
-.container-uslugi .container-arrows2 {
+.container-services .container-arrows2 {
   position: absolute;
   top: 42%;
   left: 50%;
@@ -7358,15 +7358,15 @@ img.displayed {
   transform: translate(-50%, -50%);
 }
 
-.container-uslugi .slick-prev {
+.container-services .slick-prev {
   left: 24px;
 }
 
-.container-uslugi .slick-next {
+.container-services .slick-next {
   right: 24px;
 }
 
-.text-uslugi {
+.text-services {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 700;
@@ -7377,43 +7377,43 @@ img.displayed {
   color: #ffffff;
 }
 
-.card-uslugi {
+.card-services {
   padding-bottom: 100px;
 }
 
-.uslugi-foto {
-  background-image: url(../img/chel1.png);
+.services-foto {
+  background-image: url(../img/ransom-s.png);
   background-repeat: no-repeat;
   max-width: 360px;
   border-radius: 20px;
   padding: 0 20px;
 }
 
-.uslugi-foto2 {
-  background-image: url(../img/chel2.png);
+.services-foto2 {
+  background-image: url(../img/insurance-s.png);
   background-repeat: no-repeat;
   max-width: 360px;
   border-radius: 20px;
   padding: 0 20px;
 }
 
-.uslugi-foto3 {
-  background-image: url(../img/arenda.png);
+.services-foto3 {
+  background-image: url(../img/lease-s.png);
   background-repeat: no-repeat;
   max-width: 360px;
   border-radius: 20px;
   padding: 0 20px;
 }
 
-.uslugi-foto4 {
-  background-image: url(../img/perehod.png);
+.services-foto4 {
+  background-image: url(../img/translation-s.png);
   background-repeat: no-repeat;
   max-width: 360px;
   border-radius: 20px;
   padding: 0 20px;
 }
 
-.card-title-uslugi {
+.card-title-services {
   margin-top: 255px;
   font-family: Proxima Nova;
   font-style: normal;
@@ -7423,7 +7423,7 @@ img.displayed {
   color: #ffffff;
 }
 
-.card-text-uslugi {
+.card-text-services {
   margin: 13px 0;
   font-family: Proxima Nova;
   font-style: normal;
@@ -7439,11 +7439,11 @@ img.displayed {
   width: 100%;
 }
 
-.container-o-kompanii {
+.container-about-company {
   padding: 100px 90px;
 }
 
-.text-kompanii {
+.text-about-company {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 700;
@@ -7468,11 +7468,11 @@ img.displayed {
   z-index: 2;
 }
 
-.fotokompanii {
+.foto-about-company {
   position: relative;
   margin-top: -150px;
   margin-left: -150px;
-  background-image: url(/img/okompaniii.png);
+  background-image: url(/img/about-company.png);
   width: 647.07px;
   height: 632.97px;
   z-index: 1;
@@ -7485,11 +7485,11 @@ img.displayed {
   transform: rotate(-90deg);
 }
 
-.container-vopros {
+.container-question {
   padding-bottom: 100px;
 }
 
-.container-vopros-dop {
+.container-question-dop {
   height: 573px;
   width: 390px;
   padding: 10px 40px;
@@ -7526,6 +7526,7 @@ img.displayed {
 .right2 {
   position: relative;
   top: -26px;
+  left: 32px;
   margin: 0 171px;
   width: 27px;
   height: 27px;
@@ -7533,7 +7534,7 @@ img.displayed {
   background-image: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.421875 13.5C0.421875 6.27539 6.27539 0.421875 13.5 0.421875C20.7246 0.421875 26.5781 6.27539 26.5781 13.5C26.5781 20.7246 20.7246 26.5781 13.5 26.5781C6.27539 26.5781 0.421875 20.7246 0.421875 13.5ZM13.5 24.8906C19.7596 24.8906 24.8906 19.8229 24.8906 13.5C24.8906 7.24043 19.8229 2.10938 13.5 2.10938C7.24043 2.10938 2.10938 7.17715 2.10938 13.5C2.10938 19.7596 7.17715 24.8906 13.5 24.8906ZM14.1592 20.0127L20.2289 13.9482C20.4768 13.7004 20.4768 13.2996 20.2289 13.0518L14.1592 6.9873C13.9113 6.73945 13.5105 6.73945 13.2627 6.9873L12.8988 7.35117C12.651 7.59902 12.651 8.01035 12.9094 8.25293L17.4182 12.6035H7.38281C7.03477 12.6035 6.75 12.8883 6.75 13.2363V13.7637C6.75 14.1117 7.03477 14.3965 7.38281 14.3965H17.4182L12.9041 18.7471C12.651 18.9949 12.6457 19.401 12.8936 19.6488L13.2574 20.0127C13.5105 20.2605 13.9113 20.2605 14.1592 20.0127Z' fill='%23B26519'/%3E%3C/svg%3E%0A");
 }
 
-.vopros-label {
+.question-label {
   display: inline-block;
   font-family: Proxima Nova;
   font-style: normal;
@@ -7547,7 +7548,7 @@ img.displayed {
   padding: 10px 0;
 }
 
-.text-vopros {
+.text-question {
   text-align: left;
   font-family: Proxima Nova;
   font-style: normal;
@@ -7555,7 +7556,7 @@ img.displayed {
   font-size: 16px;
   line-height: 23px;
   color: #ffffff;
-  padding: 13px 0px 0px 23px;
+  padding: 10px 0 0 0;
 }
 
 .text-question {
@@ -7565,7 +7566,6 @@ img.displayed {
   font-size: 24px;
   line-height: 126%;
   color: #ffffff;
-  margin: 10px 0 10px 25px;
 }
 
 .text-question-time {
@@ -7578,7 +7578,7 @@ img.displayed {
   margin: 10px 0 10px 25px;
 }
 
-.sotrudnichestvo-text {
+.cooperation-text {
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 700;
@@ -7589,7 +7589,7 @@ img.displayed {
   color: #ffffff;
 }
 
-.sotrudnichestvo-text-title {
+.cooperation-text-title {
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 700;
@@ -7600,13 +7600,13 @@ img.displayed {
   color: #ffffff;
 }
 
-.sotrudnichestvo-info {
+.cooperation-info {
   grid-template-columns: 600px 600px;
   display: grid;
   justify-content: center;
 }
 
-.sotrudnichestvo-info-text {
+.cooperation-info-text {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 300;
@@ -7616,7 +7616,7 @@ img.displayed {
   margin: 20px;
 }
 
-.sotrudnichestvo-pogruzka {
+.cooperation-pogruzka {
   margin: 20px;
   background-image: url(/img/pogruzka.png);
   max-width: 555px;
@@ -7624,9 +7624,9 @@ img.displayed {
   background-repeat: no-repeat;
 }
 
-.sotrudnichestvo-dostavka {
+.cooperation-delivery {
   margin: 20px;
-  background-image: url(/img/dostavka2.png);
+  background-image: url(/img/delivery2.png);
   max-width: 555px;
   min-height: 406px;
   background-repeat: no-repeat;

@@ -255,7 +255,7 @@ a.btn.btn-outline-warning {
 }
 
 // кнопка вопрос
-.btn-vopros {
+.btn-question {
     width: 253px;
     height: 68px;
     color: #fff;
@@ -264,7 +264,7 @@ a.btn.btn-outline-warning {
     border-radius: 35px;
 }
 
-.btn-vopros:hover {
+.btn-question:hover {
     
     text-align: left;
     color: #fff;
@@ -272,34 +272,34 @@ a.btn.btn-outline-warning {
     border-color: $primary3;
 }
 
-.btn-check:focus+.btn-vopros,
-.btn-vopros:focus {
+.btn-check:focus+.btn-question,
+.btn-question:focus {
     color: #fff;
     background-color: #e7873d;
     border-color: #e7873dc0;
     box-shadow: 0 0 0 0.25rem #e73d3dc0;
 }
 
-.btn-check:checked+.btn-vopros,
-.btn-check:active+.btn-vopros,
-.btn-vopros:active,
-.btn-vopros.active,
-.show>.btn-vopros.dropdown-toggle {
+.btn-check:checked+.btn-question,
+.btn-check:active+.btn-question,
+.btn-question:active,
+.btn-question.active,
+.show>.btn-question.dropdown-toggle {
     color: #fff;
     background-color: #e7873d;
     border-color: #e7873dc0;
 }
 
-.btn-check:checked+.btn-vopros:focus,
-.btn-check:active+.btn-vopros:focus,
-.btn-vopros:active:focus,
-.btn-vopros.active:focus,
-.show>.btn-vopros.dropdown-toggle:focus {
+.btn-check:checked+.btn-question:focus,
+.btn-check:active+.btn-question:focus,
+.btn-question:active:focus,
+.btn-question.active:focus,
+.show>.btn-question.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.25rem #e73d3dc0;
 }
 
-.btn-vopros:disabled,
-.btn-vopros.disabled {
+.btn-question:disabled,
+.btn-question.disabled {
     color: #fff;
     background-color: #e7873d;
     border-color: #e7873dc0;
